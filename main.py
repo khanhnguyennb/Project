@@ -57,9 +57,9 @@ if abs(percent_change) > 0:
 
     for article in formatted_articles:
         notification = client.messages.create(
-            body = article,
-            from_ = "=+18559564034",
-            to = CUSTOMER_PHONE_NUMBER
+            body=article,
+            from_="=+18559564034",
+            to=CUSTOMER_PHONE_NUMBER
         )
 
 
